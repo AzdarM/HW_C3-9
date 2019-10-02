@@ -1,33 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<title>PWS-C3.9 Local storage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Work 3.9</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-    <style>
-        body { min-width: 400px; }
-        .input-group { width: 40vw;}
-        .custom-checkbox {margin-left: 8vw;}
-   </style>
-
 </head>
+
 <body>
-    <section class="container">
+    <section class="container checks mt-2">
         <div class="d-flex justify-content-center">
             <div class="input-group my-5">
                 <div class="input-group-prepend">
-                    <span class="input-group-text mx-4" id="cityInfo">Ваш город</span>
+                    <span class="input-group-text mx-4" id="cityInfo">Город</span>
                 </div>
                 <input id="cityInput" type="text" class="form-control">
-                <button type="submit" class="btn btn-secondary mx-4 submit-btn">Отправить</button>
+                <button type="submit" class="btn btn-danger mx-4 submit-btn">Отправить</button>
             </div>
         </div>
     </section>
 
     <section class="container checks">
         <div class="d-flex justify-content-center">
-            <h3 class="my-4">Текущее настроение</h3>
+            <h3 class="my-2">Статус</h3>
         </div>
         <div class="d-flex flex-column">
             <div class="custom-control custom-checkbox">
@@ -55,10 +54,11 @@
                 <label class="custom-control-label" for="check6">это задание выполнено правильно;</label>
             </div>
             <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-secondary my-4 save-btn">Сохранить состояние</button>
+                <button type="submit" class="btn btn-danger my-4 save-btn">Сохранить</button>
             </div>
     </section>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
